@@ -1,6 +1,6 @@
 module github.com/newrelic/nri-kubernetes/v3
 
-go 1.19
+go 1.26.0
 
 require (
 	github.com/google/go-cmp v0.5.9
@@ -10,10 +10,10 @@ require (
 	github.com/prometheus/prom2json v1.3.2
 	github.com/segmentio/go-camelcase v0.0.0-20160726192923-7085f1e3c734
 	github.com/sethgrid/pester v1.2.0
-	github.com/sirupsen/logrus v1.9.0
+	github.com/sirupsen/logrus v1.9.1
 	github.com/spf13/viper v1.13.0
 	github.com/stretchr/testify v1.8.1
-	google.golang.org/protobuf v1.28.1
+	google.golang.org/protobuf v1.33.0
 	k8s.io/api v0.25.3
 	k8s.io/apimachinery v0.25.3
 	k8s.io/client-go v0.25.3
@@ -54,13 +54,12 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/objx v0.5.0 // indirect
 	github.com/subosito/gotenv v1.4.1 // indirect
-	golang.org/x/net v0.1.0 // indirect
-	golang.org/x/oauth2 v0.1.0 // indirect
-	golang.org/x/sys v0.1.0 // indirect
-	golang.org/x/term v0.1.0 // indirect
-	golang.org/x/text v0.4.0 // indirect
+	golang.org/x/net v0.62.0 // indirect
+	golang.org/x/oauth2 v0.27.0 // indirect
+	golang.org/x/sys v0.49.0 // indirect
+	golang.org/x/term v0.47.0 // indirect
+	golang.org/x/text v0.43.0 // indirect
 	golang.org/x/time v0.1.0 // indirect
-	google.golang.org/appengine v1.6.7 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
